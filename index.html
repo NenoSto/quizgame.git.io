@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz game</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="start-screen">
+      <button id="start-button">Start</button>
+    </div>
+    <div id="display-container">
+      <div class="header">
+        <div class="number-of-count">
+          <span class="number-of-questions">1/10 questions</span>
+        </div>
+        <div class="timer-div">
+          <img src="time-left.png" alt="timer" width="20px" />
+          <span class="time-left">10s</span>
+        </div>
+      </div>
+
+      <div id="container"></div>
+      <button id="next-button">Next</button>
+    </div>
+    <div class="score-container hide">
+      <div id="user-score">Score</div>
+      <button id="restart">Restart</button>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>
